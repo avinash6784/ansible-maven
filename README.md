@@ -9,20 +9,18 @@ None.
 ## Role Variables
 ```yml
 
-#Role Java vars
-download_url: http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz
-download_folder: /opt
-java_name: "{{download_folder}}/jdk1.8.0_111"
-java_archive: "{{download_folder}}/jdk-8u111-linux-x64.tar.gz"
-java_env_file: "/etc/profile.d/java.sh"
-java_home: /opt/jdk1.8.0_111
+#Maven vars
+maven_major: 3
+maven_version: 3.3.9
+maven_home_parent_directory: /opt
+maven_env_file: "/etc/profile.d/maven.sh"
 
 ```
 
 ## Dependencies
 
 This role depends on avinash6784.oracle-java role. This is configured for ansible-galaxy install in requirements.yml.
-### NOTE: Requirements are installed as virtual user avinash6784 (avinash6784.oracle-java).
+### NOTE:### Requirements are installed as virtual user avinash6784 (avinash6784.oracle-java).
 
 Be sure to install required roles with
 ```
