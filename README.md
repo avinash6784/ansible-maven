@@ -20,7 +20,7 @@ maven_env_file: "/etc/profile.d/maven.sh"
 ## Dependencies
 
 This role depends on avinash6784.oracle-java role. This is configured for ansible-galaxy install in requirements.yml.
-### NOTE:### Requirements are installed as virtual user avinash6784 (avinash6784.oracle-java).
+**NOTE**: Requirements are installed as virtual user avinash6784 (avinash6784.oracle-java).
 
 Be sure to install required roles with
 ```
