@@ -1,4 +1,4 @@
-# Ansible Role: Apache Maven 3 [Ansible Playbook Role To Install Java]
+# Ansible Role: Apache Maven 3 [Ansible Playbook Role To Install Maven]
 
 Install Apache Maven 3, a distributed version control system, on any RHEL/CentOS Linux system.
 
