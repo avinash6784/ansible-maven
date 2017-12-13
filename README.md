@@ -55,4 +55,4 @@ $ ansible-playbook -i hosts maven.yml
 
 ## Author Informations
 
-This role was created by [Avinash Pawar](https://github.com/avinash6784/ansible-maven).
+This role was created by [Avinash Pawar](http://devopstechie.com).
